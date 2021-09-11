@@ -5,7 +5,7 @@ import study.sort.GyubSort;
 
 public class SelectionSort implements GyubSort{
 	
-	/** Àç±ÍÇÔ¼ö ¼±ÅÃÁ¤·Ä
+	/** ì¬ê·€í•¨ìˆ˜ ì„ íƒì •ë ¬
 	 * @param arr
 	 * @param selectionIdx
 	 */
@@ -23,7 +23,7 @@ public class SelectionSort implements GyubSort{
 		} 
 	}
 
-	/** ÀÏ¹İÀûÀÎ ¼±ÅÃÁ¤·Ä
+	/** ì¼ë°˜ì ì¸ ì„ íƒì •ë ¬
 	 * @param arr
 	 * @return
 	 */

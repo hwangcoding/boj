@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
- * Description : Á¤·Ä. Åë°èÇÐ ¸¶Áö¸·¹®Á¦!! Á¤´ä·üÀÏ Á¦ÀÏ ³·¾Æ ¸¶Áö¸·¿¡ Ç®°Ô µÇ¾úÀ½.<br>
+ * Description : ì •ë ¬. í†µê³„í•™ ë§ˆì§€ë§‰ë¬¸ì œ!! ì •ë‹µë¥ ì¼ ì œì¼ ë‚®ì•„ ë§ˆì§€ë§‰ì— í’€ê²Œ ë˜ì—ˆìŒ.<br>
  * Date : 2021. 8. 30.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 30., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ìž‘ì„±ìž : Hman, ë‚ ì§œ : 2021. 8. 30., ì„¤ëª… : ìµœì´ˆìž‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -17,10 +17,10 @@ import java.util.Arrays;
 public class Sort2108 {
 	
 	/**
-	 * Ã¹Â° ÁÙ¿¡´Â »ê¼úÆò±ÕÀ» Ãâ·ÂÇÑ´Ù. ¼Ò¼öÁ¡ ÀÌÇÏ Ã¹Â° ÀÚ¸®¿¡¼­ ¹Ý¿Ã¸²ÇÑ °ªÀ» Ãâ·ÂÇÑ´Ù.
-		µÑÂ° ÁÙ¿¡´Â Áß¾Ó°ªÀ» Ãâ·ÂÇÑ´Ù.
-		¼ÂÂ° ÁÙ¿¡´Â ÃÖºó°ªÀ» Ãâ·ÂÇÑ´Ù. ¿©·¯ °³ ÀÖÀ» ¶§¿¡´Â ÃÖºó°ª Áß µÎ ¹øÂ°·Î ÀÛÀº °ªÀ» Ãâ·ÂÇÑ´Ù.
-		³ÝÂ° ÁÙ¿¡´Â ¹üÀ§¸¦ Ãâ·ÂÇÑ´Ù.
+	 * ì²«ì§¸ ì¤„ì—ëŠ” ì‚°ìˆ í‰ê· ì„ ì¶œë ¥í•œë‹¤. ì†Œìˆ˜ì  ì´í•˜ ì²«ì§¸ ìžë¦¬ì—ì„œ ë°˜ì˜¬ë¦¼í•œ ê°’ì„ ì¶œë ¥í•œë‹¤.
+		ë‘˜ì§¸ ì¤„ì—ëŠ” ì¤‘ì•™ê°’ì„ ì¶œë ¥í•œë‹¤.
+		ì…‹ì§¸ ì¤„ì—ëŠ” ìµœë¹ˆê°’ì„ ì¶œë ¥í•œë‹¤. ì—¬ëŸ¬ ê°œ ìžˆì„ ë•Œì—ëŠ” ìµœë¹ˆê°’ ì¤‘ ë‘ ë²ˆì§¸ë¡œ ìž‘ì€ ê°’ì„ ì¶œë ¥í•œë‹¤.
+		ë„·ì§¸ ì¤„ì—ëŠ” ë²”ìœ„ë¥¼ ì¶œë ¥í•œë‹¤.
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

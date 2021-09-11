@@ -6,23 +6,23 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * Description :  Á¤·Ä. ¹®ÀÚ¿­ ½ÉÈ­¹®Á¦.<br>
+ * Description :  ì •ë ¬. ë¬¸ìžì—´ ì‹¬í™”ë¬¸ì œ.<br>
  * Date : 2021. 8. 28.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 28., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ìž‘ì„±ìž : Hman, ë‚ ì§œ : 2021. 8. 28., ì„¤ëª… : ìµœì´ˆìž‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
  */
 public class Sort1431 {
 	/**
-	 * ¸ðµç ½Ã¸®¾ó ¹øÈ£´Â ¾ËÆÄºª ´ë¹®ÀÚ (A-Z)¿Í ¼ýÀÚ (0-9)·Î ÀÌ·ç¾îÁ® ÀÖ´Ù.
+	 * ëª¨ë“  ì‹œë¦¬ì–¼ ë²ˆí˜¸ëŠ” ì•ŒíŒŒë²³ ëŒ€ë¬¸ìž (A-Z)ì™€ ìˆ«ìž (0-9)ë¡œ ì´ë£¨ì–´ì ¸ ìžˆë‹¤.
 
-		½Ã¸®¾ó¹øÈ£ A°¡ ½Ã¸®¾ó¹øÈ£ BÀÇ ¾Õ¿¡ ¿À´Â °æ¿ì´Â ´ÙÀ½°ú °°´Ù.
+		ì‹œë¦¬ì–¼ë²ˆí˜¸ Aê°€ ì‹œë¦¬ì–¼ë²ˆí˜¸ Bì˜ ì•žì— ì˜¤ëŠ” ê²½ìš°ëŠ” ë‹¤ìŒê³¼ ê°™ë‹¤.
 		
-		A¿Í BÀÇ ±æÀÌ°¡ ´Ù¸£¸é, ÂªÀº °ÍÀÌ ¸ÕÀú ¿Â´Ù.
-		¸¸¾à ¼­·Î ±æÀÌ°¡ °°´Ù¸é, AÀÇ ¸ðµç ÀÚ¸®¼öÀÇ ÇÕ°ú BÀÇ ¸ðµç ÀÚ¸®¼öÀÇ ÇÕÀ» ºñ±³ÇØ¼­ ÀÛÀº ÇÕÀ» °¡Áö´Â °ÍÀÌ ¸ÕÀú¿Â´Ù. (¼ýÀÚÀÎ °Í¸¸ ´õÇÑ´Ù)
-		¸¸¾à 1,2¹ø µÑ Á¶°ÇÀ¸·Îµµ ºñ±³ÇÒ ¼ö ¾øÀ¸¸é, »çÀü¼øÀ¸·Î ºñ±³ÇÑ´Ù. ¼ýÀÚ°¡ ¾ËÆÄºªº¸´Ù »çÀü¼øÀ¸·Î ÀÛ´Ù.
+		Aì™€ Bì˜ ê¸¸ì´ê°€ ë‹¤ë¥´ë©´, ì§§ì€ ê²ƒì´ ë¨¼ì € ì˜¨ë‹¤.
+		ë§Œì•½ ì„œë¡œ ê¸¸ì´ê°€ ê°™ë‹¤ë©´, Aì˜ ëª¨ë“  ìžë¦¬ìˆ˜ì˜ í•©ê³¼ Bì˜ ëª¨ë“  ìžë¦¬ìˆ˜ì˜ í•©ì„ ë¹„êµí•´ì„œ ìž‘ì€ í•©ì„ ê°€ì§€ëŠ” ê²ƒì´ ë¨¼ì €ì˜¨ë‹¤. (ìˆ«ìžì¸ ê²ƒë§Œ ë”í•œë‹¤)
+		ë§Œì•½ 1,2ë²ˆ ë‘˜ ì¡°ê±´ìœ¼ë¡œë„ ë¹„êµí•  ìˆ˜ ì—†ìœ¼ë©´, ì‚¬ì „ìˆœìœ¼ë¡œ ë¹„êµí•œë‹¤. ìˆ«ìžê°€ ì•ŒíŒŒë²³ë³´ë‹¤ ì‚¬ì „ìˆœìœ¼ë¡œ ìž‘ë‹¤.
 	*/
 	public static void main(String[] args) {
 		try {

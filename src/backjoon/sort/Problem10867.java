@@ -4,18 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 
 /**
- * Description : Å¬·¡½º¿¡ ´ëÇÑ ¼³¸íÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.<br>
+ * Description : ë¬¸ì œ 10867.<br>
  * Date : 2021. 9. 4.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 9. 4., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
- *
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 9. 4., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
+ * 
  * @author Hman
  * @version 1.0
  */

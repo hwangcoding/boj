@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description : ¹éÁØ. Å¥ °ü·Ã ¹®Á¦.<br>
+ * Description : ë°±ì¤€. í ê´€ë ¨ ë¬¸ì œ.<br>
  * Date : 2021. 9. 2.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 9. 2., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ìž‘ì„±ìž : Hman, ë‚ ì§œ : 2021. 9. 2., ì„¤ëª… : ìµœì´ˆìž‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -20,12 +20,12 @@ public class Queue10845 {
 	static StringBuffer sb = new StringBuffer();
 
 	/**
-	 * push X: Á¤¼ö X¸¦ Å¥¿¡ ³Ö´Â ¿¬»êÀÌ´Ù.
-		pop: Å¥¿¡¼­ °¡Àå ¾Õ¿¡ ÀÖ´Â Á¤¼ö¸¦ »©°í, ±× ¼ö¸¦ Ãâ·ÂÇÑ´Ù. ¸¸¾à Å¥¿¡ µé¾îÀÖ´Â Á¤¼ö°¡ ¾ø´Â °æ¿ì¿¡´Â -1À» Ãâ·ÂÇÑ´Ù.
-		size: Å¥¿¡ µé¾îÀÖ´Â Á¤¼öÀÇ °³¼ö¸¦ Ãâ·ÂÇÑ´Ù.
-		empty: Å¥°¡ ºñ¾îÀÖÀ¸¸é 1, ¾Æ´Ï¸é 0À» Ãâ·ÂÇÑ´Ù.
-		front: Å¥ÀÇ °¡Àå ¾Õ¿¡ ÀÖ´Â Á¤¼ö¸¦ Ãâ·ÂÇÑ´Ù. ¸¸¾à Å¥¿¡ µé¾îÀÖ´Â Á¤¼ö°¡ ¾ø´Â °æ¿ì¿¡´Â -1À» Ãâ·ÂÇÑ´Ù.
-		back: Å¥ÀÇ °¡Àå µÚ¿¡ ÀÖ´Â Á¤¼ö¸¦ Ãâ·ÂÇÑ´Ù. ¸¸¾à Å¥¿¡ µé¾îÀÖ´Â Á¤¼ö°¡ ¾ø´Â °æ¿ì¿¡´Â -1À» Ãâ·ÂÇÑ´Ù.
+	 * push X: ì •ìˆ˜ Xë¥¼ íì— ë„£ëŠ” ì—°ì‚°ì´ë‹¤.
+		pop: íì—ì„œ ê°€ìž¥ ì•žì— ìžˆëŠ” ì •ìˆ˜ë¥¼ ë¹¼ê³ , ê·¸ ìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤. ë§Œì•½ íì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ê°€ ì—†ëŠ” ê²½ìš°ì—ëŠ” -1ì„ ì¶œë ¥í•œë‹¤.
+		size: íì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ì˜ ê°œìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤.
+		empty: íê°€ ë¹„ì–´ìžˆìœ¼ë©´ 1, ì•„ë‹ˆë©´ 0ì„ ì¶œë ¥í•œë‹¤.
+		front: íì˜ ê°€ìž¥ ì•žì— ìžˆëŠ” ì •ìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤. ë§Œì•½ íì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ê°€ ì—†ëŠ” ê²½ìš°ì—ëŠ” -1ì„ ì¶œë ¥í•œë‹¤.
+		back: íì˜ ê°€ìž¥ ë’¤ì— ìžˆëŠ” ì •ìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤. ë§Œì•½ íì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ê°€ ì—†ëŠ” ê²½ìš°ì—ëŠ” -1ì„ ì¶œë ¥í•œë‹¤.
 	 * @throws IOException 
 	 * @throws InterruptedException 
 	 */

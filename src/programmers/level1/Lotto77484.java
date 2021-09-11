@@ -1,10 +1,10 @@
 package programmers.level1;
 
 /**
- * Description : ·Î¶ÇÀÇ ÃÖ°í ¼øÀ§¿Í ÃÖÀú ¼øÀ§<br>
+ * Description : ë¡œë˜ì˜ ìµœê³  ìˆœìœ„ì™€ ìµœì € ìˆœìœ„<br>
  * Date : 2021. 8. 30.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 30., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 30., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -30,12 +30,12 @@ public class Lotto77484 {
 	public static int [] solution(int [] lottos, int [] winNumber)  {
 		int zeroCount = 0, checkCount = 0;
 		int [] result = resultArray();
-		// ÃßÃ· ¹øÈ£ ·çÇÁ
+		// ì¶”ì²¨ ë²ˆí˜¸ ë£¨í”„
 		for( int i = 0 ; i < lottos.length; i++) {
 			if( lottos[i] == 0 ) {
 				zeroCount++;
 			}else {
-				// ´çÃ· ¹øÈ£ ·çÇÁ
+				// ë‹¹ì²¨ ë²ˆí˜¸ ë£¨í”„
 				for(int j = 0 ; j < lottos.length; j++) {
 					if( lottos[i] == winNumber[j]) {
 						checkCount++;

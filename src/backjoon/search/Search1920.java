@@ -7,10 +7,10 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * Description : ¹éÁØ, ¼ö Ã£±â ¹®Á¦.<br>
+ * Description : ë°±ì¤€, ìˆ˜ ì°¾ê¸° ë¬¸ì œ.<br>
  * Date : 2021. 8. 31.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 31., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 31., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0

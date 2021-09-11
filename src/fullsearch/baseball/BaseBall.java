@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ¼ýÀÚ ¾ß±¸ ¾Ë°í¸®Áò
+ * ìˆ«ìž ì•¼êµ¬ ì•Œê³ ë¦¬ì¦˜
  * @author Gyub
  *
  */
 
 /*
- * »ó´ë¹æÀÇ ÀÓÀÇÀÇ ¼ýÀÚ 3ÀÚ¸®¸¦ ¸ÂÃß´Â °ÔÀÓ 
- * ¼­·Î ÀÓÀÇÀÇ ¼ýÀÚ 3ÀÚ¸®¸¦ Á¤ÇÑ´Ù ( 123 , 346)
- * Á¤ÇÑÀÌÈÄ ¼­·Î ¹ø°¥¾Æ°¡¸ç »ó´ë¹æÀÇ ¼ýÀÚ¸¦ À¯ÃßÇÏ¸ç °ÔÀÓÀ» ÁøÇà
+ * ìƒëŒ€ë°©ì˜ ìž„ì˜ì˜ ìˆ«ìž 3ìžë¦¬ë¥¼ ë§žì¶”ëŠ” ê²Œìž„ 
+ * ì„œë¡œ ìž„ì˜ì˜ ìˆ«ìž 3ìžë¦¬ë¥¼ ì •í•œë‹¤ ( 123 , 346)
+ * ì •í•œì´í›„ ì„œë¡œ ë²ˆê°ˆì•„ê°€ë©° ìƒëŒ€ë°©ì˜ ìˆ«ìžë¥¼ ìœ ì¶”í•˜ë©° ê²Œìž„ì„ ì§„í–‰
  * 
- * 3ÀÚ¸®ÀÇ ¼ýÀÚ¸¦ ¿ÜÄ£´Ù
- * ¿ÜÄ£ ¼ýÀÚÁß ¼ýÀÚ´Â ¸ÂÁö¸¸, ÀÚ¸´¼öÀÇ À§Ä¡°¡ ´Ù¸£¸é º¼
- * ¼ýÀÚ¿Í À§Ä¡°¡ ´Ù ¸ÂÀ¸¸é ½ºÆ®¶óÀÌÅ©
- * ¼ýÀÚ°¡ ´Ù¸£¸é ¾Æ¿ô
+ * 3ìžë¦¬ì˜ ìˆ«ìžë¥¼ ì™¸ì¹œë‹¤
+ * ì™¸ì¹œ ìˆ«ìžì¤‘ ìˆ«ìžëŠ” ë§žì§€ë§Œ, ìžë¦¿ìˆ˜ì˜ ìœ„ì¹˜ê°€ ë‹¤ë¥´ë©´ ë³¼
+ * ìˆ«ìžì™€ ìœ„ì¹˜ê°€ ë‹¤ ë§žìœ¼ë©´ ìŠ¤íŠ¸ë¼ì´í¬
+ * ìˆ«ìžê°€ ë‹¤ë¥´ë©´ ì•„ì›ƒ
  * 
  * */
 
@@ -26,13 +26,13 @@ public class BaseBall {
 	List candidates = new ArrayList();
 	
 	BaseBall(){
-		// ¹éÀÇÀÚ¸®
+		// ë°±ì˜ìžë¦¬
 		for(int hundredsIDX = 1; hundredsIDX <= 9; hundredsIDX++) {
 			
-			// ½ÊÀÇÀÚ¸®
+			// ì‹­ì˜ìžë¦¬
 			for(int tensIDX = 1; tensIDX<= 9;tensIDX++) {
 				if( tensIDX != hundredsIDX ) {
-					// ÀÏÀÇÀÚ¸®
+					// ì¼ì˜ìžë¦¬
 					for(int onesIDX = 1; onesIDX <= 9; onesIDX++) {
 						if( onesIDX != tensIDX && onesIDX != hundredsIDX) {
 							String str = String.valueOf(hundredsIDX) + String.valueOf(tensIDX) + String.valueOf(onesIDX);

@@ -1,17 +1,17 @@
 package backjoon.function;
 
 /**
- * Description : ¹éÁØ ¼¿ÇÁ³Ñ¹ö ÇÔ¼ö ¹®Á¦.<br>
+ * Description : ë°±ì¤€ ì…€í”„ë„˜ë²„ í•¨ìˆ˜ ë¬¸ì œ.<br>
  * Date : 2021. 8. 26.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 26., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 26., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
  */
 public class Function4673 {
 
-	// ¼¿ÇÁ ³Ñ¹ö´Â 1949³â ÀÎµµ ¼öÇĞÀÚ D.R. Kaprekar°¡ ÀÌ¸§ ºÙ¿´´Ù. ¾çÀÇ Á¤¼ö n¿¡ ´ëÇØ¼­ d(n)À» n°ú nÀÇ °¢ ÀÚ¸®¼ö¸¦ ´õÇÏ´Â ÇÔ¼ö¶ó°í Á¤ÀÇÇÏÀÚ. ¿¹¸¦ µé¾î, d(75) = 75+7+5 = 87ÀÌ´Ù.
+	// ì…€í”„ ë„˜ë²„ëŠ” 1949ë…„ ì¸ë„ ìˆ˜í•™ì D.R. Kaprekarê°€ ì´ë¦„ ë¶™ì˜€ë‹¤. ì–‘ì˜ ì •ìˆ˜ nì— ëŒ€í•´ì„œ d(n)ì„ nê³¼ nì˜ ê° ìë¦¬ìˆ˜ë¥¼ ë”í•˜ëŠ” í•¨ìˆ˜ë¼ê³  ì •ì˜í•˜ì. ì˜ˆë¥¼ ë“¤ì–´, d(75) = 75+7+5 = 87ì´ë‹¤.
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer();
 		boolean [] check = new boolean[10001] ;

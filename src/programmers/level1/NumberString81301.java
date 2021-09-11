@@ -1,10 +1,10 @@
 package programmers.level1;
 
 /**
- * Description : Ä«Ä«¿À Ã¤¿ë¿¬°ÔÇü ÀÎÅÏ½± , ¼ıÀÚ ¹®ÀÚ¿­°ú ¿µ´Ü¾î.<br>
+ * Description : ì¹´ì¹´ì˜¤ ì±„ìš©ì—°ê²Œí˜• ì¸í„´ì‰½ , ìˆ«ì ë¬¸ìì—´ê³¼ ì˜ë‹¨ì–´.<br>
  * Date : 2021. 8. 31.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 31., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 31., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -26,7 +26,7 @@ public class NumberString81301 {
 	}
 	
 	/**
-	 * ¿µ´Ü¾î ¹è¿­ ¹İÈ¯
+	 * ì˜ë‹¨ì–´ ë°°ì—´ ë°˜í™˜
 	 * @return String [] 
 	 */
 	public static String [] getWord() {

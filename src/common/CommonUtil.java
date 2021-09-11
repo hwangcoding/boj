@@ -12,11 +12,11 @@ public class CommonUtil {
 		t.sort(array);
 		end = System.currentTimeMillis();
 //		CommonUtil.printArray(array);
-		System.out.println( "½ÇÇà ½Ã°£ : " + ( end - start )/1000.0 +"ÃÊ"); //ÃÖÁ¾ ½ÇÇà½Ã°£
+		System.out.println( "ì‹¤í–‰ ì‹œê°„ : " + ( end - start )/1000.0 +"ì´ˆ"); //ìµœì¢… ì‹¤í–‰ì‹œê°„
 	}
 	
 	/**
-	 * ¹è¿­ ÀÎµ¦½º ±³Ã¼
+	 * ë°°ì—´ ì¸ë±ìŠ¤ êµì²´
 	 * @param arr
 	 * @param selectIDX
 	 * @param swapIDX
@@ -30,7 +30,7 @@ public class CommonUtil {
 	}
 	
 	/**
-	 * ¹è¿­ Ãâ·Â
+	 * ë°°ì—´ ì¶œë ¥
 	 * @param arr
 	 */
 //	public static void printArray(int [] arr) {

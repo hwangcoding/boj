@@ -3,7 +3,7 @@ package backjoon.sort;
 import java.util.Scanner;
 
 /**
- * ¹éÁØ 2752¹ø ¼¼ ¼ıÀÚ Á¤·Ä
+ * ì •ë ¬ 2752 ë¬¸ì œ
  * @author Hman
  *
  */

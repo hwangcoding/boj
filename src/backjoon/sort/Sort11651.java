@@ -5,10 +5,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
- * Description : Á¤·Ä. ÁÂÇ¥Æò¸é 2.<br>
+ * Description : ì •ë ¬. ì¢Œí‘œí‰ë©´ 2.<br>
  * Date : 2021. 8. 26.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 26., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 26., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0

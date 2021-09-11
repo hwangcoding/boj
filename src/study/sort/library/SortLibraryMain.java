@@ -13,17 +13,17 @@ public class SortLibraryMain {
 	public static void main (String [] args) {
 		
 		List<Student> studentList = new ArrayList<Student>();
-		studentList.add(new Student("È²±Ôºó", 10));
-		studentList.add(new Student("±è±Ôºó", 13));
-		studentList.add(new Student("¹é±Ôºó", 26));
-		studentList.add(new Student("Äá±Ôºó", 32));
-		studentList.add(new Student("Èæ±Ôºó", 22));
-		studentList.add(new Student("È²±Ôºó", 28));
-		studentList.add(new Student("±è±Ôºó", 28));
-		studentList.add(new Student("¹é±Ôºó", 28));
-		studentList.add(new Student("Äá±Ôºó", 28));
-		studentList.add(new Student("Èæ±Ôºó", 28));
-		System.out.println("Á¤·ÄÀü");
+		studentList.add(new Student("í™©ê·œë¹ˆ", 10));
+		studentList.add(new Student("ê¹€ê·œë¹ˆ", 13));
+		studentList.add(new Student("ë°±ê·œë¹ˆ", 26));
+		studentList.add(new Student("ì½©ê·œë¹ˆ", 32));
+		studentList.add(new Student("í‘ê·œë¹ˆ", 22));
+		studentList.add(new Student("í™©ê·œë¹ˆ", 28));
+		studentList.add(new Student("ê¹€ê·œë¹ˆ", 28));
+		studentList.add(new Student("ë°±ê·œë¹ˆ", 28));
+		studentList.add(new Student("ì½©ê·œë¹ˆ", 28));
+		studentList.add(new Student("í‘ê·œë¹ˆ", 28));
+		System.out.println("ì •ë ¬ì „");
 		printList(studentList);
 		Collections.sort(studentList, new Comparator<Student>() {
 			@Override
@@ -31,11 +31,11 @@ public class SortLibraryMain {
 				return Integer.compare(o1.getAge(),  o2.getAge());
 			}
 		}.thenComparing(Student::getName));
-		System.out.println("Á¤·ÄÈÄ");
+		System.out.println("ì •ë ¬í›„");
 		printList(studentList);
 		
 		Collections.sort(studentList, (o1, o2) -> Integer.compare(o2.getAge(),o1.getAge()));
-		System.out.println("Á¤·ÄÈÄ");
+		System.out.println("ì •ë ¬í›„");
 		printList(studentList);
 		
 	}

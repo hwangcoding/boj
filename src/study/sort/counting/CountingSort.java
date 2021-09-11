@@ -3,10 +3,10 @@ package study.sort.counting;
 import study.sort.GyubSort;
 
 /**
- * Description : °è¼öÁ¤·Ä ( Counting sort ) <br>
+ * Description : ê³„ìˆ˜ì •ë ¬ ( Counting sort ) <br>
  * Date : 2021. 8. 25.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 25., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 25., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0

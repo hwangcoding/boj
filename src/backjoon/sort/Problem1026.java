@@ -4,14 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Stack;
 
 /**
- * Description : º¸¹° Ã£±â 1026<br>
+ * Description : ë³´ë¬¼ ì°¾ê¸° 1026<br>
  * Date : 2021. 9. 4.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 9. 4., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 9. 4., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -19,10 +17,10 @@ import java.util.Stack;
 public class Problem1026 {
 
 	/**
-	 * Ã¹Â° ÁÙ¿¡ NÀÌ ÁÖ¾îÁø´Ù. 
-	 * µÑÂ° ÁÙ¿¡´Â A¿¡ ÀÖ´Â N°³ÀÇ ¼ö°¡ ¼ø¼­´ë·Î ÁÖ¾îÁö°í, 
-	 * ¼ÂÂ° ÁÙ¿¡´Â B¿¡ ÀÖ´Â ¼ö°¡ ¼ø¼­´ë·Î ÁÖ¾îÁø´Ù. NÀº
-	 * 50º¸´Ù ÀÛ°Å³ª °°Àº ÀÚ¿¬¼öÀÌ°í, A¿Í BÀÇ °¢ ¿ø¼Ò´Â 100º¸´Ù ÀÛ°Å³ª °°Àº À½ÀÌ ¾Æ´Ñ Á¤¼öÀÌ´Ù.
+	 * ì²«ì§¸ ì¤„ì— Nì´ ì£¼ì–´ì§„ë‹¤. 
+	 * ë‘˜ì§¸ ì¤„ì—ëŠ” Aì— ìˆëŠ” Nê°œì˜ ìˆ˜ê°€ ìˆœì„œëŒ€ë¡œ ì£¼ì–´ì§€ê³ , 
+	 * ì…‹ì§¸ ì¤„ì—ëŠ” Bì— ìˆëŠ” ìˆ˜ê°€ ìˆœì„œëŒ€ë¡œ ì£¼ì–´ì§„ë‹¤. Nì€
+	 * 50ë³´ë‹¤ ì‘ê±°ë‚˜ ê°™ì€ ìì—°ìˆ˜ì´ê³ , Aì™€ Bì˜ ê° ì›ì†ŒëŠ” 100ë³´ë‹¤ ì‘ê±°ë‚˜ ê°™ì€ ìŒì´ ì•„ë‹Œ ì •ìˆ˜ì´ë‹¤.
 	 * @throws IOException 
 	 * @throws NumberFormatException 
 	 */
@@ -43,7 +41,7 @@ public class Problem1026 {
 			y[i] = Integer.parseInt(str2[i]);
 		}
 		
-		// Ã¹¹ø¤Š ¹è¿­ Á¤·Ä
+		// ì²«ë²ˆÂŠ ë°°ì—´ ì •ë ¬
 		Arrays.sort(x);
 		
 		for(int i = size-1 ; i > -1; i --) {
@@ -68,4 +66,3 @@ public class Problem1026 {
 	}
 
 }
-

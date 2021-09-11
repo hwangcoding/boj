@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Description : ±âÃÊ°­ÀÇ 1[ ¹®ÀÚ¿­ µÚÁı±â ]<br>
+ * Description : ê¸°ì´ˆê°•ì˜ 1[ ë¬¸ìì—´ ë’¤ì§‘ê¸° ]<br>
  * Date : 2021. 9. 10.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 9. 10., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 9. 10., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0

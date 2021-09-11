@@ -9,24 +9,24 @@ public class HeapSortFail  implements GyubSort{
 		int size = array.length;
 		int maxRootIndex = (size / 2) - 1;
 		
-		//  √÷¥Î»¸ ªÛ≈¬∑Œ ∫Ø»Ø
+		//  ÏµúÎåÄÌûô ÏÉÅÌÉúÎ°ú Î≥ÄÌôò
 		for(int n = maxRootIndex ; n > -1 ; n--) {
 			heapify(array, n, size);
 		}
 		
-		// ¡§∑ƒ
+		// Ï†ïÎ†¨
 		for(int i = array.length-1; i > 0; i--) {
 			CommonUtil.swap(array, i, 0);
 			int rootIndex = (i / 2) - 1;
 			int lastIndex = i;
 			
-			//  √÷¥Î»¸ ªÛ≈¬∑Œ ∫Ø»Ø
+			//  ÏµúÎåÄÌûô ÏÉÅÌÉúÎ°ú Î≥ÄÌôò
 			for(int n = rootIndex ; n > -1 ; n--) {
 				heapify(array, n, lastIndex);
 			}
 			
 		}
-		//System.out.println("√÷¡æ");
+		//System.out.println("ÏµúÏ¢Ö");
 		//CommonUtil.printArray( array);
 	} 
 	

@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /**
- * Description : ¼ıÀÚÄ«µå 10815.<br>
+ * Description : ìˆ«ìì¹´ë“œ 10815.<br>
  * Date : 2021. 9. 1.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 9. 1., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 9. 1., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0

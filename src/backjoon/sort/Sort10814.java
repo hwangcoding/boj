@@ -7,10 +7,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * Description : Å¬·¡½º¿¡ ´ëÇÑ ¼³¸íÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.<br>
+ * Description : í´ë˜ìŠ¤ì— ëŒ€í•œ ì„¤ëª…ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.<br>
  * Date : 2021. 8. 26.<br>
  * History :<br>
- * - ÀÛ¼ºÀÚ : Hman, ³¯Â¥ : 2021. 8. 26., ¼³¸í : ÃÖÃÊÀÛ¼º<br>
+ * - ì‘ì„±ì : Hman, ë‚ ì§œ : 2021. 8. 26., ì„¤ëª… : ìµœì´ˆì‘ì„±<br>
  *
  * @author Hman
  * @version 1.0
@@ -18,7 +18,7 @@ import java.util.Comparator;
 public class Sort10814 {
 
 	public static void main(String[] args) {
-		// Ã¹Â° ÁÙºÎÅÍ ÃÑ N°³ÀÇ ÁÙ¿¡ °ÉÃÄ ¿Â¶óÀÎ ÀúÁö È¸¿øÀ» ³ªÀÌ ¼ø, ³ªÀÌ°¡ °°À¸¸é °¡ÀÔÇÑ ¼øÀ¸·Î ÇÑ ÁÙ¿¡ ÇÑ ¸í¾¿ ³ªÀÌ¿Í ÀÌ¸§À» °ø¹éÀ¸·Î ±¸ºĞÇØ Ãâ·ÂÇÑ´Ù.
+		// ì²«ì§¸ ì¤„ë¶€í„° ì´ Nê°œì˜ ì¤„ì— ê±¸ì³ ì˜¨ë¼ì¸ ì €ì§€ íšŒì›ì„ ë‚˜ì´ ìˆœ, ë‚˜ì´ê°€ ê°™ìœ¼ë©´ ê°€ì…í•œ ìˆœìœ¼ë¡œ í•œ ì¤„ì— í•œ ëª…ì”© ë‚˜ì´ì™€ ì´ë¦„ì„ ê³µë°±ìœ¼ë¡œ êµ¬ë¶„í•´ ì¶œë ¥í•œë‹¤.
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			StringBuffer sb = new StringBuffer();
