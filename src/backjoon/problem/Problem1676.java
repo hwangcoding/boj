@@ -21,13 +21,6 @@ public class Problem1676 {
             count += N/5;
             N = N/5;
         }
-        for( int i = 2; i <= N; i++){
-            int temp = N;
-            while( temp % 5 == 0){
-                count += temp/5;
-                temp = temp/5;
-            }
-        }
         System.out.println(count);
     }
 }
